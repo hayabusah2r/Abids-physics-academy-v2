@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("background.jpg");
+    scroll-behavior: smooth;
+    background-color: #0f0f0f;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+#loader{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    overflow: visible;
+    background: #000 url('loader.gif') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+}
+.topnav{
+    overflow: hidden;
+    background-color: #ff0000;
+}
+
+.topnav a{
+    font-family: 'Lato', sans-serif;
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+    color: white;
+}
+.mobutton{
+    border-radius: 20px;
+    margin-top: 10px;
+    display: none;
+    margin-left: 0px;
+    border: none;
+    background-color: #f1f1f1;
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+    width: 100px;
+    height: 30px;
+}
+
+.btn{
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    background-color: #f1f1f1;
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+    margin-right: 90px;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: -35px;
+    float: right;
+}
+.btn:hover{
+    color: black;
+    background-color: #e2e2e2;
+}
+.btn-2{
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f1f1f1;
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+    margin-left: 90px;
+    width: 120px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: -35px;
+    float: left;
+    border: none;
+}
+.btn-2:hover{
+    color: black;
+    background-color: #e2e2e2;
+}
+.header-1{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 120px;
+    font-size: 50px;
+    font-weight:600;
+}
+.sub-header{
+    font-family: monospace;
+    margin-top: 10px;
+    color: white;
+    font-weight: 100;
+    font-size: 22px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.sub-header-2{
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 70px;
+    color: white;
+}
+.headerbtn{
+    border-radius: 20px;
+    background-color: #f1f1f1;
+    border: none;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 40px;
+    height: 50px;
+    width: 500px;
+    transition: 0.3s;
+}
+.headerbtn:hover{
+    background-color: #9e9e9e;
+}
+.header-2{
+    font-family: monospace;
+    color: white;
+    font-size: 37px;
+    margin-top: 150px;
+}
+
+.header-yt{
+    font-family: monospace;
+    color: white;
+    margin-bottom: 60px;
+    font-size: 37px;
+    margin-top: 150px;
+}
+.header-yt a{
+    font-size: 37px;
+    color: red;
+    text-decoration: underline;
+}
+.courses{
+    border-radius: 20px;
+    margin-top: 5px;
+    text-align: left;
+    padding-left: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    background-color: #9e9e9e;
+    border: 4px solid #0a0a23;
+    height: 4rem;
+    width: 40rem;
+}
+.courses:hover{
+    background-color: #f1f1f1;
+    color: black;
+}
+img{
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    width: 30%;
+}
+img:hover{
+    border: none;
+}
+.header-3{
+    color: black;
+    font-size: 50px;
+    margin-top: 100px;
+}
+.contact{
+    color: grey;
+    font-size: 20px;
+}
+.contact i{
+    margin-right: 10px;
+}
+.contacta{
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: black;
+}
+.contacta:hover{
+    text-decoration: none;
+}
+.contact-desc{
+    color: black;
+}
+footer{
+    margin-top: 200px;
+    padding: 3px;
+    background-image: url("background2.jpg");
+}
+.quick-links{
+    text-align: center;
+}
+.quick-links ul li a{
+    padding-right: 35px;
+    display: inline;
+}
+
+.socials{
+    text-align: center;
+}
+.socials ul li i{
+    padding-right: 35px;
+    display: inline;
+}
+.socials ul li a{
+    color: white;
+    text-decoration: none;
+}
+.footer-header,
+.footer-sub-title{
+    color: white;
+}
+.footer-sub-title{
+    font-size: 20px;
+}
+.footer-desc,
+.quick-links ul li a,
+.socials ul li i{
+    color: grey;
+}
+.footer-desc{
+    margin-bottom: 45px;
+    margin-top: -15px;
+}
+.quick-links ul li a{
+    font-size: 15px;
+    transition: 0.3s;
+}
+.quick-links ul li a:hover{
+    text-decoration: none;
+    color: #febe41;
+}
+.socials ul li i{
+    font-size: 25px;
+    transition: 0.3s;
+}
+.socials ul li i:hover{
+    color: #febe41;
+}
+.footer-copyright{
+    margin-top: 30px;
+    text-align: center;
+    color: grey;
+}
+.footer-copyright a{
+    color: white;
+    transition: 0.3s;
+}
+.footer-copyright a:hover{
+    text-decoration: none;
+    color: #febe41;
+    font-size: 20px;
+}
+.footer-p span{
+    color: white;
+    font-size: 17px;
+    margin-right: 4px;
+}
+.footer-p{
+    color: grey;
+    font-size: 15px;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .header-1{
+        margin-top: 70px;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 29px;
+    }
+    .sub-header{
+        margin-top: 30px;
+        font-size: 12px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .topnav a{
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .btn{
+        display: none;
+        
+    }
+    .btn-2{
+        display: none;
+        
+    }
+    .headerbtn{
+        width: 200px;
+        font-size: 17px;
+    }
+    .header-2{
+        font-size: 40px;
+    }
+    .header-2 a{
+        font-size: 30px;
+    }
+    .header-yt{
+        font-family: monospace;
+        color: white;
+        margin-bottom: 60px;
+        font-size: 29px;
+        margin-top: 150px;
+    }
+    .header-yt a{
+        font-size: 29px;
+        color: red;
+        text-decoration: underline;
+    }
+    .courses{
+        width: 320px;
+        font-size: 20px;
+    }
+    .column {
+        width: 100%;
+        display: block;
+      }
+      .mobutton{
+        width: 90px;
+        font-size: 13px;
+          display: inline;
+      }
+      .header-2{
+        font-size: 36px;
+          margin-left: 10%;
+          margin-right: 10%;
+      }
+    img{
+        margin-left: 0px;
+        width: 70%;
+        margin-bottom: 30px;
+        display: block;
+    }
+    .sub-header-2{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
+      .column img{
+          display: none;
+      }
+    .contact{
+        font-size: 16px;
+    }
+    .contacta{
+        font-size: 16px;
+    }
+    .footer-header{
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+    .footer-desc{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .footer-sub-title{
+        font-size: 20px;
+    }
+    .quick-links ul li a{
+        font-size: 10px;
+    }
+    .socials ul li i{
+        font-size: 20px;
+    }
+    .footer-p{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .courses{
+        width: 60rem;
+    }
+    img{
+        width: 20%;
+    }
+}

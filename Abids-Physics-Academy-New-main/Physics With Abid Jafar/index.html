@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Abid's Physics Academy (APA)</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/f8f3181ec9.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- The Loader -->
+    <div id="loader"></div>
+    <div class="webcontent">
+        <div class="topnav">
+            <center><a href="index.html">APA <i class="fa-solid fa-fire-flame-curved"></i></a></center>
+            <button class="btn" onclick="location.href='about.html'">About</button>
+            <button class="btn-2" onclick="location.href='courses.html'">Courses</button>
+        </div>
+        <center><button class="mobutton" onclick="location.href='about.html'">About</button> <button class="mobutton" onclick="location.href='courses.html'">Courses</button> <button class="mobutton" onclick="location.href='contact.html'">Contact</button></center>
+        <center><h1 class="header-1">Abid's Physics Academy.</h1></center>
+        <center><p class="sub-header">This is our initiative to present the study of physics more easily and fluently</p></center>
+        <center><button class="headerbtn" onclick="location.href='contact.html'">Get Started</button></center>
+        <section id="courses">
+            <center><h1 class="header-yt">Watch on <a href="https://www.youtube.com/channel/UCu9qEp9ha235aGMbKcPd31Q/videos" target="_blank">Youtube</a></h1></center>
+        <center><p class="sub-header">(Click on the thumbnails to view)</p></center>
+        <center><a href="https://www.youtube.com/watch?v=bNzJwpd8QyQ" target="_blank"><img src="thumb1.jpg" alt=""></a> <a href="https://www.youtube.com/watch?v=-Y70w5zEt7w" target="_blank"><img src="thumb2.jpg" alt=""></a> <a href="https://www.youtube.com/watch?v=w8ZV24YzaCA" target="_blank"><img src="thumb3.jpg" alt=""></a></center>
+        <center><a href="https://www.youtube.com/watch?v=K7oF88zdquY" target="_blank"><img src="thumb4.jpg" alt=""></a> <a href="https://www.youtube.com/watch?v=VGUj-irifhk" target="_blank"><img src="thumb5.jpg" alt=""></a> <a href="https://www.youtube.com/watch?v=ZOmtKEmxr6s" target="_blank"><img src="thumb6.jpg" alt=""></a></center>
+        <center><a href="https://youtube.com/watch?v=p5X2W36Nu_I" target="_blank"><img src="thumb7.jpg" alt=""></a> <a href="https://youtube.com/watch?v=Tckl-Ips0bY" target="_blank"><img src="thumb8.jpg" alt=""></a> <a href="https://youtube.com/watch?v=YccmCcuzkyo" target="_blank"><img src="thumb9.jpg" alt=""></a></center>
+        <center><a href="https://youtube.com/watch?v=AYGhTE-v5p0" target="_blank"><img src="thumb10.jpg" alt=""></a> <a href="https://youtube.com/watch?v=rO87wqYl0yo" target="_blank"><img src="thumb11.jpg" alt=""></a> <a href="https://youtube.com/watch?v=GTDPZuSz4r4" target="_blank"><img src="thumb12.jpg" alt=""></a></center>
+        </section>
+    
+    
+        <footer>
+            <center><h1 class="footer-header">Abid's Physics Academy</h1></center>
+            <center><p class="footer-desc">This is our initiative to present the study of physics more easily and fluently.</p></center>
+            <center><h2 class="footer-sub-title">Quick Links:</h2></center>
+            <div class="quick-links">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="courses.html">Courses</a>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <center><h2 class="footer-sub-title">Contact:</h2></center>
+            <div class="quick-links">
+                <p class="footer-p"><span>Email:</span> physicswithabidjafar@gmail.com</p>
+                <p class="footer-p"><span>Phone/Whatsapp:</span> +880 1797-162480</p>
+                <p class="footer-p"><span>Location:</span> Chawkbazar, Gulzar tower, 5th floor, Pacemaker Office.</p>
+            </div>
+        <center><h2 class="footer-sub-title">Socials:</h2></center>
+        <div class="socials">
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/AbidJafar.Salman" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/channel/UCu9qEp9ha235aGMbKcPd31Q" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+        <center><p class="footer-copyright">Website Constructed by <a href="https://seaams-portfolio-v3.netlify.app/" target="_blank">SEAAM</a></p></center>
+        </footer>
+    </div>
+
+    <script type="text/javascript">
+        var loader;
+        function loadNow(opacity) {
+            if(opacity <= 0) {
+                displayContent();
+            }
+            else{
+                loader.style.opacity = opacity;
+                window.setTimeout(function() {
+                    loadNow(opacity - 0.25)
+                }, 300);
+            }
+        }
+
+        function displayContent() {
+            loader.style.display = 'none';
+            document.getElementById('content').style.display = 'block';
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            loader = document.getElementById('loader');
+            loadNow(1);
+        })
+    </script>
+    
+
+
+</body>
+</html>
